@@ -1,20 +1,22 @@
-name = "Meta: Llama 3.2 11B Vision Instruct"
+name = "Meta: Llama 3.2 11B Vision Instruct (retires Jul 17)"
 description = "Open Llama multimodal model for image understanding and text reasoning"
+family = "llama"
 release_date = "2024-09-25"
 last_updated = "2024-09-25"
 attachment = true
 reasoning = false
 temperature = true
 tool_call = false
-open_weights = true
+structured_output = false
+open_weights = false
 
 [cost]
-input = 0.049
-output = 0.049
+input = 0.345
+output = 0.345
 
 [limit]
-context = 131072
-output = 16384
+context = 131_072
+output = 16_384
 
 [modalities]
 input = ["text", "image"]
